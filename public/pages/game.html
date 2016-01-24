@@ -1,0 +1,21 @@
+<div ng-controller="gameCtrl as game">
+<div id="board">
+    <table>
+      <tr id="row1">
+        <td class="square">{{game.board[0][0]}}</td>
+        <td class="square v">{{game.board[0][1]}}</td>
+        <td class="square">{{game.board[0][2]}}</td>
+      </tr>
+      <tr id="row2">
+        <td class="square h">{{game.board[1][0]}}</td>
+        <td class="square v h">{{game.board[1][1]}}</td>
+        <td class="square h">{{game.board[1][2]}}</td>
+      </tr>
+      <tr id="row3">
+        <td class="square">{{game.board[2][0]}}</td>
+        <td class="square v">{{game.board[2][1]}}</td>
+        <td class="square">{{game.board[2][2]}}</td>
+      </tr>
+    </table>
+  </div>
+</div>
